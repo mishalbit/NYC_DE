@@ -1,0 +1,9 @@
+{
+	"name": "myapp",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3ad4a758-89bc-450f-aead-6658eb8bdbf7",
+		"tenantId": "9472b84c-5f58-4f29-80ce-a83c01259132"
+	}
+}

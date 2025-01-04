@@ -1,0 +1,20 @@
+{
+	"name": "ds_nyctaxi_sink_Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_nyc_taxi_storage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
